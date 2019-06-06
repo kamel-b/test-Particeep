@@ -1,0 +1,92 @@
+body{
+    background-color: #fecc00;
+}
+
+h1{
+    margin: auto;
+    max-height: 15vh;
+    text-align: center
+}
+p{
+    margin:10%;
+    text-align: center;
+}
+img{
+    width: 80%;
+    height: 50%;
+    margin: 10%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    margin: auto 10%;
+    background-color: black;
+}
+
+.card{
+    border-radius: 2%;
+    margin: 5%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.925);
+    width: 30%;
+    height: auto;
+}
+
+.likes{
+	height:5px;
+	width:50%;
+	background:green;
+    float:left;
+    margin-bottom: 2%;
+
+}
+.dislikes{
+	height:5px;
+	width:50%;
+	background: gray;
+    float:right;
+    margin-bottom: 2%;
+}
+
+.bar-like{
+    margin: 5%;
+}
+.like-buttons {
+    margin-top: 5%;
+    margin-left: 25%;
+    float: left;
+    cursor: pointer;
+}
+.like-buttons:hover{
+    transform: scale(1.5)
+}
+.dislike-buttons{
+    margin-top : 5%;
+    margin-right: 25% ;
+    float: right;
+    cursor: pointer;
+}
+.dislike-buttons:hover{
+    transform: scale(1.5)
+}
+.like-count{
+    float:right;
+}
+
+button{
+    display: block;
+    margin-top: 25%;
+    margin-left: 35%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 3%;
+    font-size: 1em;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    
+    }
