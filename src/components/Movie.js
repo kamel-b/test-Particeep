@@ -91,11 +91,9 @@ const movies = [
 class MovieList extends Component {
 
   state = {
-    movieList: movies[0].likes,
+    movieList: movies,
   }
 
-   like = this.state.movieList[0].likes
-   dislike = this.state.movieList[0].dislikes
 
   deleteMovie = (movieToDelete) => {
     let newItem = this.state.movieList.filter(item => {
